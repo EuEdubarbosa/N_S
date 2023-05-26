@@ -1,0 +1,526 @@
+* {
+
+    margin: 0%;
+}
+a{
+    text-decoration: none !important;
+}
+header {
+    list-style: none;
+    
+}
+
+.grupo1 img {
+    width: 224px;
+    height: 51px;
+    margin-left: 100px;
+}
+
+.prime {
+    background-color: #c7f0c1;
+    color: #fff;
+}
+
+
+.prime {
+    display: flex;
+    justify-content: space-between;
+}
+
+.prime ul {
+    list-style: none;
+    margin: 0;
+    padding: 2.5px;
+    
+}
+
+.prime li {
+    display: inline-block;
+    margin: 0 20px;
+}
+
+.prime a {
+    color: #000000;
+    text-decoration: none;
+}
+
+
+
+.suprema2 {
+    display: flex;
+    justify-content: space-between;
+    background-color: #40B036;
+}
+
+
+
+.suprema2 h1 {
+    margin-top: 10px;
+    margin-left: 30px;
+    margin-right: 30px;
+    align-items: center;
+}
+
+.suprema2 nav {
+    margin-top: 3px;
+    margin-left: 30px;
+    margin-right: 30px;
+    align-items: center;
+    font-weight: 700;
+    font-size: 22px;
+
+}
+
+.suprema2 a {
+    color: #000000;
+    text-decoration: none;
+
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    background-color: #40B036;
+}
+
+nav ul li {
+    display: inline-block;
+    position: relative;
+}
+
+nav ul li a {
+    display: block;
+    color: #fff;
+    text-decoration: none;
+}
+
+nav ul li:hover>ul {
+    display: block;
+}
+
+nav ul ul {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #40B036;
+    border-radius: 0 0 15px 15px;
+    margin-left: 10%;
+}
+
+nav ul ul li {
+    display: block;
+}
+
+nav ul ul li a {
+    padding: 10px;
+    color: #fff;
+    text-decoration: none;
+}
+
+nav ul li a.selected {
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+}
+
+nav ul li ul div li a:hover {
+    color: rgb(110, 232, 126);
+}
+
+.começo h2 {
+    display: flex;
+    justify-content: center;
+    font-family: 'Inter';
+    font-style: italic;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 45px;
+    color: #3ba30a;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    padding-top: 245px;
+
+}
+
+.começo {
+    background-image: url(./imagens/pgrs.jpg);
+    height: 839px;
+    background-size: cover;
+    background-position-y: -200px;
+    border-bottom: #000000 10px solid;
+    border: #000000;
+}
+.leis{
+    margin-top: 30px;
+}
+
+
+
+.quadradointerno2 img{
+
+    margin-top: 10px;
+
+    width: 500px;
+    padding: 20px;
+    margin-top: -10px;
+
+}
+
+.plano0 {
+    background-color: #D9D9D9;
+}
+
+.plano0 h4 {
+    font-size: 45px;
+    margin-left: 540px;
+    font-family: 'Fira Sans Condensed';
+    font-style: normal;
+    font-weight: 700;
+    width: 850px;
+    margin-top: -360px;
+}
+
+.plano0 {
+    margin-top: 20px;
+    height: 520px;
+}
+
+.importancia h3 {
+
+    margin-top: 55px;
+    font-family: 'Fira Sans Condensed';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 100px;
+    line-height: 77px;
+
+    color: #000000;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.imagem {
+    display: flex;
+    justify-content: space-around;
+}
+
+.imagem h4 {
+
+    margin-top: 40px;
+    margin-left: -30px;
+    width: 840px;
+    font-size: 33px;
+    line-height: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+}
+
+.imagem strong {
+    color: #88be86
+}
+
+.imagem img {
+    width: 650px;
+    height: 630px;
+    margin-top: 40px;
+}
+
+.cleis {
+    display: flex;
+    justify-content: space-around;
+}
+
+.cleis h3 {
+    font-family: 'Fira Sans Condensed';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 100px;
+    line-height: 77px;
+    margin-top: 70px;
+    color: #000000;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.leis h4 {
+
+    margin-left: 350px;
+    margin-top: 30px;
+    width: 781px;
+    font-size: 30px;
+    line-height: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+}
+
+.leis strong {
+    color: #88be86
+}
+
+
+/*sexta parte*/
+
+.logistica h3 {
+
+    width: 818px;
+
+    margin-left: 311px;
+    margin-top: 100px;
+
+    font-family: 'Fira Sans Condensed';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 77px;
+
+    color: #000000;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.logistica strong {
+    color: #FF0000;
+}
+
+.logistica h4 {
+
+    display: flex;
+    margin-left: 311px;
+    top: 748px;
+    width: 781px;
+    font-size: 20px;
+    line-height: 24px;
+    font-family: 'Fira Sans Condensed';
+    font-style: normal;
+    font-weight: 700;
+}
+
+.quadradointerno6 h2 {
+    font-family: 'Fira Sans Condensed';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 36px;
+    margin-top: 5px;
+}
+
+.quadradointerno6 strong a {
+    color: #40B036;
+    transition: 1s;
+}
+
+.quadradointerno6 strong a:hover {
+    color: #9b0d0d;
+    transition: 1s;
+}
+
+.quadradointerno6 {
+    position: relative;
+    margin-top: 10px;
+    background-color: #D3D3D3;
+    width: 813px;
+    height: 450px;
+    margin-left: 250px;
+    padding: 20px;
+    mix-blend-mode: darken;
+    border: 1px solid #000000;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+/*final*/
+
+footer {
+    position: end;
+    bottom: 0;
+}
+
+@media (max-height:800px) {
+
+    header {
+        padding-top: 40px;
+    }
+}
+
+.footer-distributed {
+    background-color: rgb(65, 175, 55);
+    box-sizing: border-box;
+    width: 100%;
+    text-align: left;
+    font: bold 16px sans-serif;
+    padding: 50px 50px 60px 50px;
+    margin-top: 80px;
+}
+
+.footer-distributed .footer-left,
+.footer-distributed .footer-center,
+.footer-distributed .footer-right {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.footer-distributed .footer-left {
+    width: 30%;
+}
+
+.footer-distributed h1 {
+    font-size: 40px;
+    color: rgb(5, 90, 25);
+    font-family: Fira Sans Condensed;
+    margin: 0;
+}
+
+
+.footer-distributed h1 span {
+    font-size: 40px;
+    font-family: Fira Sans Condensed;
+    color: #ffffff;
+    transition: 2s;
+}
+
+.footer-distributed h1 span:hover {
+    font-size: 40px;
+    font-family: Fira Sans Condensed;
+    color: #ff0000;
+    transition: 2s;
+}
+
+.footer-distributed .footer-links {
+    color: #000000;
+    margin: 20px 0 12px;
+}
+
+.footer-distributed .footer-links a {
+    display: inline-block;
+    line-height: 1.8;
+    text-decoration: none;
+    color: inherit;
+}
+
+.footer-distributed .footer-company-name {
+    color: #000000;
+    font-size: 14px;
+    font-weight: normal;
+    margin: 0;
+}
+
+.footer-distributed .footer-center {
+    width: 35%;
+}
+
+.footer-distributed .footer-center i {
+    background-color: #147dbe;
+    color: #000000;
+    font-size: 25px;
+    width: 38px;
+    height: 38px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 42px;
+    margin: 10px 15px;
+    vertical-align: middle;
+}
+
+.footer-distributed .footer-center i.fa-envelope {
+    font-size: 17px;
+    line-height: 38px;
+}
+
+.footer-distributed .footer-center p {
+    display: inline-block;
+    color: #000000;
+    vertical-align: middle;
+    margin: 0;
+}
+
+.footer-distributed .footer-center p span {
+    display: block;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 2;
+}
+
+.footer-distributed .footer-center p a {
+    color: #000000;
+    text-decoration: none;
+    font-size: x-large;
+    ;
+}
+
+.footer-distributed .footer-right {
+    width: 30%;
+}
+
+.footer-distributed .footer-company-about {
+    line-height: 20px;
+    color: #000000;
+    font-size: 13px;
+    font-weight: normal;
+    margin: 0;
+}
+
+.footer-distributed .footer-company-about span {
+    display: block;
+    color: #000000;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.footer-distributed .footer-icons a {
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    cursor: pointer;
+    background-color: rgb(0, 130, 0);
+    border-radius: 2px;
+    font-size: 20px;
+    color: #000000;
+    text-align: center;
+    line-height: 35px;
+    margin-right: 3px;
+    margin-bottom: 5px;
+}
+
+.footer-distributed .footer-icons a:hover {
+    background-color: #3F71EA;
+}
+
+.footer-links a:hover {
+    color: #3F71EA;
+}
+
+@media (max-width: 880px) {
+
+    .footer-distributed .footer-left,
+    .footer-distributed .footer-center,
+    .footer-distributed .footer-right {
+        display: block;
+        width: 100%;
+        margin-bottom: 40px;
+        text-align: center;
+    }
+}
+
+.footer-distributed .footer-center i {
+    margin-left: 0;
+}
+
+.copryth {
+    display: flex;
+    font-family: Fira Sans Condensed;
+    text-decoration: black;
+    height: 60px;
+    width: auto;
+    background-color: rgb(5, 90, 25);
+    margin: 0%;
+}
+
+.copryth p {
+    align-items: center;
+    margin-left: 3%;
+    margin-top: -2em;
+    vertical-align: middle;
+}
+
+body {
+    background: #D3D3D3;
+}
